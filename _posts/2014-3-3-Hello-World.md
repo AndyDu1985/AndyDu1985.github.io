@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Hello world!
+title: All in english
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
-效果如图，每个列的名字可以自定义。我随便用了"File"和"Attachment Name"。
-![这里写图片描述](http://img.blog.csdn.net/20170215151753573?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW55aWNoZW5nMjAxNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-在Window的Resources里面设置Style, GroupHeaderStyle：
+![image](http://img.blog.csdn.net/20170215151753573?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW55aWNoZW5nMjAxNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
 ```C#
         <Style x:Key="GroupHeaderStyle" TargetType="{x:Type GroupItem}">
             <Setter Property="Template">
@@ -25,7 +24,7 @@ Next you can update your site name, avatar and other options using the _config.y
             </Setter>
         </Style>
 ```
-把这个Style应用到DataGrid上面：
+
 ```C#
             <DataGrid.GroupStyle>
                 <GroupStyle ContainerStyle="{StaticResource GroupHeaderStyle}">
@@ -37,7 +36,7 @@ Next you can update your site name, avatar and other options using the _config.y
                 </GroupStyle>
             </DataGrid.GroupStyle>
 ```
-整体xaml文件：
+
 ```C#
 <Window x:Class="DataGridGroupDeamon.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -81,7 +80,7 @@ Next you can update your site name, avatar and other options using the _config.y
 </Window>
 
 ```
-数据准备文件：
+
 ```C#
 using System;
 using System.Collections.Generic;
