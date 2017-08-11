@@ -20,7 +20,7 @@ title: All in english
         </Style>
 ```
 
-```C++
+```c++
         <Style x:Key="GroupHeaderStyle" TargetType="{x:Type GroupItem}">
             <Setter Property="Template">
                 <Setter.Value>
@@ -37,7 +37,7 @@ title: All in english
         </Style>
 ```
 
-```CPlusPlus
+```cplusplus
         <Style x:Key="GroupHeaderStyle" TargetType="{x:Type GroupItem}">
             <Setter Property="Template">
                 <Setter.Value>
@@ -53,7 +53,7 @@ title: All in english
             </Setter>
         </Style>
 ```
-```C
+```c
         <Style x:Key="GroupHeaderStyle" TargetType="{x:Type GroupItem}">
             <Setter Property="Template">
                 <Setter.Value>
